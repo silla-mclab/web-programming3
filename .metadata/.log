@@ -1093,3 +1093,15 @@ java.io.IOException: The URL "bundleentry://396.fwk782247915/icons/full/etool16/
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 23:08:53.957
 !MESSAGE executing callback sts4.classpath.uPtXPdxy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 23:15:37.590
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uPtXPdxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 23:15:37.591
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uPtXPdxy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 23:15:37.591
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 23:15:37.591
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uPtXPdxy => OK

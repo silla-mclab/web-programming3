@@ -6,4 +6,11 @@
 			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="751"/>
+		<item key="DIALOG_Y_ORIGIN" value="305"/>
+		<item key="DIALOG_WIDTH" value="546"/>
+		<item key="DIALOG_HEIGHT" value="363"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
 </section>
