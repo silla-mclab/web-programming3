@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>컨테이너 제공 객체 테스트</title>
+</head>
+<body style="padding-left: 100px;">
+	<header>
+		<h2>컨테이너 제공 객체 테스트</h2><hr><br>
+	</header>
+	<article>
+		<div style="font-size: 1.2rem;">
+			<a href="/request_test.do?userid=gdhong&name=홍길동">1. HttpServletRequest API Test</a>
+		</div>
+	</article>
+</body>
+</html>

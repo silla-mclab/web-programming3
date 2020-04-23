@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Member Join</title>
+</head>
+<body style="padding-left: 100px;">
+	<h2>회원 가입 정보 입력</h2><hr><br>
+	<div>
+		<form action="join.do" method="POST">
+			<label for="name">이름 :</label> 
+				<input type="text" name="name" /><br>
+			<label for="id">아이디 :</label> 
+				<input type="text" name="id" /><br>
+			<label for="passwd">비밀번호 :</label> 
+				<input type="password" name="passwd" /><br><br>
+			<label for="gender">성별 :</label> 
+				남<input type="radio" name="gender" value="male"/>
+				여<input type="radio" name="gender" value="female"/><br><br>
+			<label>메일수신 여부 :</label> 
+				공지 메일<input type="checkbox" name="inotice" />
+				광고 메일<input type="checkbox" name="cnotice" />
+				배송확인 메일<input type="checkbox" name="dnotice" /><br><br>
+			<label for="job">직업 :</label> 
+				<select name="job">
+					<option>회사원</option>
+					<option>공무원</option>
+					<option>학생</option>
+					<option>기타</option>
+				</select><br><br>
+			<input type="submit" value="확인" />	
+			<input type="reset" value="취소" />	
+		</form>
+	</div>
+</body>
+</html>
