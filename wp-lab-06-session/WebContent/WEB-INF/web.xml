@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-  <display-name>wp-lab-05-attributes</display-name>
+  <display-name>wp-lab-06-session</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -12,13 +12,22 @@
   
   <servlet>
   	<servlet-name>score_process</servlet-name>
-  	<servlet-class>com.wp.scoreprocessing.ScoreProcessServlet</servlet-class>
+  	<servlet-class>com.wp.scoreprocessing.ScoreInputByCookie</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>score_process</servlet-name>
 	<url-pattern>/score_process.do</url-pattern>
   </servlet-mapping>
-  
+
+  <servlet>
+  	<servlet-name>score_process2</servlet-name>
+  	<servlet-class>com.wp.scoreprocessing.ScoreInputBySession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>score_process2</servlet-name>
+	<url-pattern>/score_process2.do</url-pattern>
+  </servlet-mapping>
+    
   <servlet>
   	<servlet-name>score_output</servlet-name>
   	<servlet-class>com.wp.scoreprocessing.ScoreOutputServlet</servlet-class>
