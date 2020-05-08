@@ -1,4 +1,0 @@
-127.0.0.1 - - [02/Apr/2020:22:42:11 +0900] "GET / HTTP/1.1" 404 750
-0:0:0:0:0:0:0:1 - - [02/Apr/2020:22:42:12 +0900] "GET /wp-lab-01-calculator/Calculator.html HTTP/1.1" 200 495
-0:0:0:0:0:0:0:1 - - [02/Apr/2020:22:42:53 +0900] "GET /wp-lab-01-calculator/calculate.do?num1=10&operator=*&num2=20 HTTP/1.1" 404 787
-0:0:0:0:0:0:0:1 - - [02/Apr/2020:22:47:23 +0900] "GET /wp-lab-01-calculator/calculate.do?num1=10&operator=*&num2=20 HTTP/1.1" 404 787

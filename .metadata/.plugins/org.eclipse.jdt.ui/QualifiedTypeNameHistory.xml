@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="com.wp.beerselection.BeerExpert"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.wp.scoreprocessing.ScoreProcessingService"/>
 </qualifiedTypeNameHistroy>

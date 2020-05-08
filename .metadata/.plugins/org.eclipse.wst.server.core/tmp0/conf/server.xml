@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/Users/yjkim/workspace/wp-ws/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/yjkim/workspace/wp-ws/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/wp-lab-08-mvc-test" path="/wp-lab-08-mvc-test" reloadable="true" source="org.eclipse.jst.jee.server:wp-lab-08-mvc-test"/></Host>
+      <Context docBase="/Users/yjkim/workspace/wp-ws/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/yjkim/workspace/wp-ws/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/wp-lab-09-score-processing" path="/wp-lab-09-score-processing" reloadable="true" source="org.eclipse.jst.jee.server:wp-lab-09-score-processing"/></Host>
     </Engine>
   </Service>
 </Server>
