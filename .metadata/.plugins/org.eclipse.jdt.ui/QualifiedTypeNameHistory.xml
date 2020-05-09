@@ -6,6 +6,10 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="com.wp.beerselection.BeerExpert"/>
-<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.wp.scoreprocessing.ScoreDO"/>
 <fullyQualifiedTypeName name="com.wp.scoreprocessing.ScoreProcessingService"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.wp.personalitytest.TestEvaluationService"/>
+<fullyQualifiedTypeName name="com.wp.personalitytest.TestResultDO"/>
 </qualifiedTypeNameHistroy>
